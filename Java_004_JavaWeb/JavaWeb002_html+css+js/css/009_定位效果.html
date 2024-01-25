@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .innerDiv{
+            width:100px;
+            height: 100px;
+        }
+        .position_static{
+            background-color: black;
+            position: static;
+            color: aliceblue;
+        }
+        .position_fixed{
+            background-color: red;
+            position: fixed;
+            left: 50px;
+            right: 50px;
+        }
+        .position_relative{
+            background-color: orange;
+            position: relative;
+            left: 50px;
+            right: 50px;
+            top:  50px;
+        }
+        .position_absolute{
+            background-color: yellow;
+            position: absolute;
+        }
+        .d2{
+            background-color: aliceblue;
+        }
+        .d3{
+            background-color: antiquewhite;
+        }
+    
+    </style>
+</head>
+<body>
+        <div>static</div><br><br>
+        <div class="innerDiv position_static">static</div>
+        <div class="innerDiv d2">2</div>
+        <div class="innerDiv d3">3</div>
+
+
+        <br><br><div>fixed</div><br><br>
+
+        <div class="innerDiv position_fixed">fixed</div>
+        <div class="innerDiv d2">2</div>
+        <div class="innerDiv d3">3</div>
+
+        <br><br><div>relative</div><br><br>
+        <div class="innerDiv position_relative">relative</div>
+        <div class="innerDiv d2">2</div>
+        <div class="innerDiv d3">3</div>
+
+        <br><br><div>absolute</div><br><br>
+        <div class="innerDiv position_absolute">absolute</div>
+        <div class="innerDiv d2">2</div>
+        <div class="innerDiv d3">3</div>
+</body>
+</html>

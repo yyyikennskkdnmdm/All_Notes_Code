@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #xdd{
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+
+    <script>
+
+        // 普通的函数声明
+        let fun1 = function(){
+
+        }
+
+        //箭筒函数声明
+        let fun2 = ()=>{}
+
+        let fun3 = (x) => {return x + 1}
+        let fun4 = x => x+1  // 只有一个参数()可以省略，只有一行代码{}和return都可以不写
+
+
+
+
+        // 3.一些例子
+        let person = {
+            name:"张三",
+            showName:function(){
+                console.log(this.name)
+            },
+            viewName:()=>{
+                console.log(this.name) // 这个里面的this是windows对象，而不是person对象，所以不能使用this
+            }
+        }
+
+
+
+        
+
+
+    </script>
+
+</head>
+<body>
+
+    <div id="xdd"></div>
+    <script>
+        var xdd = document.getElementById("xdd")
+
+        xdd.onclick = function(){
+            console.log(xdd)
+            console.log(this)
+
+            // this.style.backgroundColor = "yellow";
+            window.setTimeout(function(){
+                // this.style.backgroundColor = "yellow"  // 报错，因为这个里面级this是window对象
+                xdd.style.backgroundColor = "yellow"
+                
+            },2000)
+
+            // 会覆盖上面的功能
+            window.setTimeout(function(){
+                xdd.style.backgroundColor = "black"
+            },2000)
+
+
+            
+            
+        }
+    </script>
+    
+</body>
+</html>

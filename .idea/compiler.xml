@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JavaWeb001_schedules_system_" />
+        <module name="MybatisPlus_Test" />
+        <module name="JavaWeb001_atguigu-headline" />
+        <module name="JavaWeb001_schedule_system" />
+        <module name="springboot-headline-part" />
+        <module name="Mybatis_test" />
+        <module name="Maven_Test" />
+        <module name="Java_004_JavaWeb" />
+        <module name="JavaWeb001_schedule-system-end" />
+        <module name="Java_003_JDBC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="headline" target="1.6" />
+      <module name="JavaWeb001_atguigu-headline" target="17" />
+      <module name="JavaWeb001_schedule-system-end" target="17" />
+      <module name="JavaWeb_practice_001" target="17" />
+      <module name="springboot-headline" target="17" />
+      <module name="springboot-headline (1)" target="17" />
+      <module name="WebStore" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JavaWeb000_Project" options="" />
+      <module name="JavaWeb001_atguigu-headline" options="-parameters" />
+      <module name="JavaWeb001_schedule-system-end" options="-parameters" />
+      <module name="JavaWeb001_schedule_system" options="--add-modules java.sql" />
+      <module name="JavaWeb001_schedules_system_" options="-parameters" />
+      <module name="JavaWeb_practice_001" options="-parameters" />
+      <module name="Java_003_JDBC" options="-parameters" />
+      <module name="Java_004_JavaWeb" options="-parameters" />
+      <module name="Maven_Test" options="-parameters" />
+      <module name="MybatisPlus_Test" options="-parameters" />
+      <module name="Mybatis_test" options="-parameters" />
+      <module name="WebStore" options="-parameters" />
+      <module name="WebStore2" options="--add-modules java.sql" />
+      <module name="book2020" options="--add-modules java.sql" />
+      <module name="schedule-system-finish" options="--add-modules java.sql" />
+      <module name="springboot-headline" options="-parameters" />
+      <module name="springboot-headline (1)" options="-parameters" />
+      <module name="springboot-headline-part" options="-parameters" />
+    </option>
+  </component>
+</project>

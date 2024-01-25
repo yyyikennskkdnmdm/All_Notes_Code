@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb001_atguigu-headline.iml" filepath="$PROJECT_DIR$/JavaWeb001_atguigu-headline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb001_schedule-system-end.iml" filepath="$PROJECT_DIR$/JavaWeb001_schedule-system-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule_system/JavaWeb001_schedule_system.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule_system/JavaWeb001_schedule_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb2020.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_001_Servlet/JavaWeb_001.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_001_Servlet/JavaWeb_001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_002_Jsp/JavaWeb_002_Jsp.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_002_Jsp/JavaWeb_002_Jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_003_EL/JavaWeb_003_EL.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_003_EL/JavaWeb_003_EL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_001_javaee/Java_001_javaee.iml" filepath="$PROJECT_DIR$/Java_001_javaee/Java_001_javaee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_002_MySQL/Java_002_MySQL.iml" filepath="$PROJECT_DIR$/Java_002_MySQL/Java_002_MySQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/WebStore2/WebStore2.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/WebStore2/WebStore2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/book2020.iml" filepath="$PROJECT_DIR$/Java_004_JavaWeb/book2020/book2020.iml" />
+    </modules>
+  </component>
+</project>

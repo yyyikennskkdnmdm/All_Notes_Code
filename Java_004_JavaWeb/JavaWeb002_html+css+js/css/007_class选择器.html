@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .shapeClass{
+            /* display:block 表示独占一行？ */
+            display: block; 
+            width: 80px;
+            height: 40px;
+            border-radius: 5px;
+        }
+
+        .colorClass{
+            background-color: azure;
+            color: black;
+            border: 3px solid beige;
+        }
+
+        .fontClass{
+            font-size: 22px;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input class="shapeClass" type="button" value=".shapeClass"/>
+    <input class="colorClass" type="button" value=".colorClass"/>
+    <input class="fontClass" type="button" value=".fontClass"/>
+    <input class="shapeClass colorClass fontClass" type="button" value="所有样式都有"/>
+</body>
+</html>

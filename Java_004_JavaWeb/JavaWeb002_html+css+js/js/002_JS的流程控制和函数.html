@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // 1.if-else
+        if('false'){// 非空字符串 if判断为true
+            console.log(true)
+        }else{
+            console.log(false)
+        }
+        if(''){// 长度为0字符串 if判断为false
+            console.log(true)
+        }else{
+            console.log(false)
+        }
+        if(1){// 非零数字 if判断为true
+            console.log(true)
+        }else{
+            console.log(false)
+        }
+        if(0){
+            console.log(true)
+        }else{
+            console.log(false)
+        }
+
+        // 2. switch
+        var monthStr=prompt("请输入月份","例如:10 ");
+var month= Number.parseInt(monthStr)
+switch(month){
+    case 3:
+    case 4:
+    case 5:
+        console.log("春季");
+        break;
+    case 6:
+    case 7:
+    case 8:
+        console.log("夏季");
+        break;
+    case 9:
+    case 10:
+    case 11:
+        console.log("秋季");
+        break;
+    case 1:
+    case 2:
+    case 12:
+        console.log("冬季");
+        break;
+    default :
+        console.log("月份有误")
+}
+
+    // 3.循环结构
+    // while
+    var i = 1;
+    while(i <= 9){
+        var j = 1;
+        while(j <= i){
+            document.write(j+"*"+i+"="+i*j+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+            j++;
+        }
+        document.write("<hr/>");
+        i++;
+    }   
+
+    // for
+    /* 打印99 乘法表 */
+    for(  var i = 1;i <= 9; i++){
+        for(var j = 1;j <= i;j++){
+            document.write(j+"*"+i+"="+i*j+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+        }
+        document.write("<hr/>");
+    }
+    
+    // foreach
+    var cities =["北京","上海","深圳","武汉","西安","成都"]
+    document.write("<br><ul>")
+    for(var index in  cities){
+        document.write("<li>"+cities[index]+"</li>")
+    }
+    document.write("</ul>")
+
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

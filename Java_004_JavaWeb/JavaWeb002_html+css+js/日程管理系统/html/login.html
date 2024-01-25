@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日程管理系统-登录页面</title>
+    <!-- <link href="css样式/001_按钮1.css" rel="stylesheet" type="text/css"/> -->
+    <link href="../css/login.css" rel="stylesheet"/>
+
+    <script src="../js/login.js">
+    
+    </script>
+
+</head>
+<body>
+    <!-- <input type="button" onclick="fun001()"></input> -->
+    <h1 class="font-style">欢迎使用日程管理系统</h1>
+    <h3 class="font-style">请登录</h3>
+    <!-- 
+        onsubmit: 表单提交时触发 
+    -->
+    <form method="post" action="/user/login" onsubmit="return checkForm()">
+        <table class="tab" cellspacing="0px">
+            <tr class="ltr"> 
+                <td class="ctd">请输入账号：</td>
+                <td>
+                    <!-- onblur 元素失去焦点时触发 -->
+                    <input type="text" name="username" id="usernameInput" onblur="checkUsername()"></input>
+                    <span id="usernameMsg"></span>
+                </td>
+            </tr>
+            <tr class="ltr">
+                <td class="ctd">请输入密码：</td>
+                <td>
+                    <input type="password" name="passPwd" id="userPwdInput" onblur="checkUserPwd()"></input>
+                    <span id="userPwdMsg"></span>
+                </td>
+            </tr>
+            <tr class="ltr">
+                <td colspan="2" class="ctd">
+                    <input type="submit"/ value="登录" class="btn1">
+                    <input type="reset"/ value="重置" class="btn1">
+                    <button class="btn1"><a href="regist.html">去注册</a></button>                    
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        input{
+            display: block;
+            width: 80px; 
+            height: 40px; 
+            background-color: chartreuse;
+            color: white;
+            border: 3px solid green;
+            font-size: 22px;
+            font-family: '隶书';
+            line-height: 30px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 由于上面定义了input的样式，所有在之后的使用上input自动变为上面定义的样式   -->
+    <!-- 
+        缺点
+            内嵌式，虽然对样式代码做了抽取，但css代码仍然在html文件中
+            内嵌样式，仅仅能作用于当前文件，代码复用度还是不够，不利于网站风格的统一
+     -->
+    <input type="button" value="按钮1"/>
+    <input type="button" value="按钮2"/>
+    <input type="button" value="按钮3"/>
+    <input type="button" value="按钮4"/>
+
+</body>
+</html>

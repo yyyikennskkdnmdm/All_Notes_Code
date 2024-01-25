@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Java_003_JDBC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_003_JDBC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb000_Project/JavaWeb001_schedules_system_/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb000_Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb000_Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule-system-end/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule-system-end/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule_system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule_system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb_practice_001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/WebStore2/src/com/atguigu/bookstore/filter/TranactionFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/WebStore2/src/com/atguigu/bookstore/utils/ReflectionUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/JavaWeb2020/JavaWeb_001_Servlet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/src/com/atguigu/test/BookDaoTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/web/WEB-INF/lib/druid-1.1.21.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/book2020/web/WEB-INF/lib/mysql-connector-java-8.0.27-bin.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_004_JavaWeb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/Maven_Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/MybatisPlus_Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/Mybatis_test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/springboot-headline-part/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/springboot-headline-part/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java_005_SSM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

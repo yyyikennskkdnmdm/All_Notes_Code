@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 1. Object创建对象：属性+方法
+        var person = new Object();
+        person.name = "小明";
+        person.age = 10;
+        person.fun001 = function(){
+            console.log(this.name + "的控制台");
+        }
+        // 使用对象的方法
+        person.fun001();
+
+        // 2.JSON创建
+        var person2 = {
+            "name":"小红",
+            "age":9,
+            "eat":function(){
+                console.log(this.name + "的控制台");
+            }
+        }
+        person2.eat();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

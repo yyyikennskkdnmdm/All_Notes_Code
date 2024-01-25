@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/web" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/target/classes" />
+    <output-test url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/target/test-classes" />
+    <content url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline">
+      <sourceFolder url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Java_004_JavaWeb/JavaWeb001_atguigu-headline/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib (3)" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 10.1.7" level="application_server_libraries" />
+    <orderEntry type="library" name="Maven: org.testng:testng:7.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
+  </component>
+</module>

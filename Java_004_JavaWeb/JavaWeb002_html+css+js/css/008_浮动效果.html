@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- float属性只有left/right两个属性 -->
+    <div style="width: 500px; height: 300px; border: 1px solid red; background-color: antiquewhite; margin: auto;">
+        <div style="width: 300px; height: 100px;background-color: aquamarine;">如果没有浮动效果div元素会独占一行</div>
+        <div style="float: left; width: 100px; height: 100px; background-color: black; color: aliceblue;">1</div>
+        <!-- float:left -> 此时这个元素块就会取消独占一行的操作，紧挨着上一个元素浮动在左边 -->
+        <div style="float: left; width: 100px; height: 100px; background-color:white">2</div>
+
+        <div style="float: right;width: 100px; height: 100px; background-color:blue ">3</div>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb000_Project/JavaWeb001_schedules_system_" />
+    <file type="web" url="file://$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb001_schedule-system-end" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Java_004_JavaWeb/JavaWeb_practice_001/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_004_JavaWeb/WebStore/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_005_SSM/springboot-headline/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

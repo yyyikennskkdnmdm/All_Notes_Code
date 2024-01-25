@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            display: block;
+            width: 80px; 
+            height: 40px; 
+            background-color: rgb(140, 235, 100); 
+            color: white;
+            border: 3px solid green;
+            font-size: 22px;
+            font-family: '隶书';
+            line-height: 30px;
+            border-radius: 5px;
+        }
+       </style>
+</head>
+<body>
+    <!-- 缺点：
+            样式只能作用在同名标签上，其他标签不可用
+            同样的标签未必需要相同的样式，会造成样式的作用范围太大 -->
+    <input type="button" value="元素选择器"/>
+    <button>button标签无法使用input的元素选择器</button>
+</body>
+</html>

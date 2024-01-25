@@ -1,0 +1,9 @@
+# Project exclude paths
+/Java_003_JDBC/target/
+/Java_004_JavaWeb/JavaWeb000_Project/JavaWeb001_schedules_system_/target/
+/Java_004_JavaWeb/JavaWeb001_atguigu-headline/target/
+/Java_004_JavaWeb/JavaWeb001_schedule-system-end/target/
+/Java_005_SSM/Mybatis_test/target/
+/Java_005_SSM/MybatisPlus_Test/target/
+/Java_005_SSM/springboot-headline-part/target/
+/out/

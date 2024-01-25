@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        a标签有属性href 和 target
+
+        href属性用于定义连接：
+            1.href中可以使用绝对路径，以/开头，始终以一个路径作为基准路径作为出发点
+            2.href中也可以使用相对路径，不以/开头，以当前文件所在路径为出发点
+            3.href中也可以定义完整的url
+        
+        target用于定义打开的方式：
+            1._blank：在新窗口中打开目标资源
+            2._self：在当前窗口中打开目标资源
+        
+    -->
+
+    <a href="001-h标题标签.html" target="_blank">相对路径,_blank</a><br>
+    <a href="/html/001-h标题标签.html" target="_self">绝对路径,_self</a><br>
+    <a href="http://www.baidu.com">完整的url</a>
+
+</body>
+</html>

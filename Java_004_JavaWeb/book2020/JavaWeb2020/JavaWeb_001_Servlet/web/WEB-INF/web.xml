@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+<!--TODO web_001_servlet.servlet_001_helloservlet-->
+<!--    HelloServler_001-->
+    <servlet>
+        <servlet-name>HelloServlet_001</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_001_helloservlet.HelloServlet_001</servlet-class>
+        <init-param>
+            <!--是参数名-->
+            <param-name>username</param-name>
+            <!--是参数值-->
+            <param-value>root2</param-value>
+        </init-param>
+        <!--init-param是初始化参数-->
+        <init-param>
+            <!--是参数名-->
+            <param-name>url</param-name>
+            <!--是参数值-->
+            <param-value>jdbc:mysql://localhost:3306/test2</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet_001</servlet-name>
+        <url-pattern>/hello1</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>HelloServlet_002</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_001_helloservlet.HelloServlet_002</servlet-class>
+        <init-param>
+            <!--是参数名-->
+            <param-name>username</param-name>
+            <!--是参数值-->
+            <param-value>root2</param-value>
+        </init-param>
+        <!--init-param是初始化参数-->
+        <init-param>
+            <!--是参数名-->
+            <param-name>url</param-name>
+            <!--是参数值-->
+            <param-value>jdbc:mysql://localhost:3306/test2</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet_002</servlet-name>
+        <url-pattern>/hello2</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>ContextServlet_001</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_001_helloservlet.ContextServlet_001</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet_001</servlet-name>
+        <url-pattern>/contextServlet1</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>root</param-value>
+    </context-param>
+
+
+    <servlet>
+        <servlet-name>ContextServlet_002</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_001_helloservlet.ContextServlet_002</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet_002</servlet-name>
+        <url-pattern>/ContextServlet_002</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Ser001_requestApi</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_002_request.ser001_requestApi</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ser001_requestApi</servlet-name>
+        <url-pattern>/requestAPIServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Ser002_ParameterServlet</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_002_request.Ser002_ParameterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ser002_ParameterServlet</servlet-name>
+        <url-pattern>/parameterServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_002_request.servlet_003_dispatcher.Servlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet1</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_002_request.servlet_003_dispatcher.Servlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet2</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>forward001</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_002_request.servlet_003_forward.forward001</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forward001</servlet-name>
+        <url-pattern>/forward001</url-pattern>
+    </servlet-mapping>
+
+
+    
+    
+    
+    <servlet>
+        <servlet-name>Response001_ResponseIOServlet</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_003_response.Response001_ResponseIOServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Response001_ResponseIOServlet</servlet-name>
+        <url-pattern>/response001</url-pattern>
+    </servlet-mapping>
+    
+    
+
+    <servlet>
+        <servlet-name>Redirect1</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_003_response.servlet_003_rediret.Redirect1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Redirect1</servlet-name>
+        <url-pattern>/redirect1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Redirect2</servlet-name>
+        <servlet-class>com.javaweb.web_001_servlet.servlet_003_response.servlet_003_rediret.Redirect2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Redirect2</servlet-name>
+        <url-pattern>/redirect2</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

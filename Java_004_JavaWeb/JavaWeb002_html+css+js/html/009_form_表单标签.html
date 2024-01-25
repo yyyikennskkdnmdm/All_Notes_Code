@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+
+        form标签：
+
+            action：用于定义信息提交的服务器的地址
+            method：用于定义信息的提交方式。有get/post两种方式，get方式会在url后将信息以param的方式显示，post方式数据会通过请求体发送，不会在url后显示。
+                只有为input标签设置name的时候，数据才会传递
+
+            input标签：主要是表单项的标签，用于定义表单项。
+                name: 用于定义提交的参数名
+                type：用于定义表单项类型，有text（文本框）/ password（密码框）/ submit(提交按钮) / reset（重置按钮）
+     -->
+    <form action="008_table_表格标签.html" method="get">
+        input-text <input type="text" value="input-text" name="user"/> <br><br>
+
+        password<input type="password" value="input_password" name="word"/><br><br>
+
+        <input type="button" value="普通按钮">
+        <input type="submit" value="input_ubmit"/>
+        <input type="reset" value="input-reset"/><br><br>
+<!-- 单选框 -->
+        <input type="radio" name="sex" value="1" checked="checked"/>男
+        <input type="radio" name="sex" value="0"/>女<br><br>
+<!-- 多选框 -->
+        <input type="checkbox" name="multi" value="a" checked="checked"/>A
+        <input type="checkbox" name="multi" value="b"/>B
+        <input type="checkbox" name="multi" value="c"/>C
+        <input type="checkbox" name="multi" value="d"/>D<br><br>
+
+<!-- 下拉选择框 -->
+        <select name="select">
+            <option value="a" selected="selected">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+        </select>
+
+<!-- 隐藏域 -->
+        <input type="hidden" name="userId" value="123456"/><br><br>
+
+<!-- 多行文本框 -->
+        多行文本框：<textarea name="text_multi">12345767658568</textarea><br><br>
+
+
+<!-- 文件上传 -->
+        文件上传：<input type="file" name="file" />
+    </form>
+</body>
+</html>
