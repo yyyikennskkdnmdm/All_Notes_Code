@@ -1,0 +1,10 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(αι
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΎΝ‘Οϊÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Πϊÿÿÿÿ
+c
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ƒο–ϊÿÿÿÿ
+Q
+java:S6437"6Revoke and change this password, as it is compromised.(ƒο–ϊÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(›‹

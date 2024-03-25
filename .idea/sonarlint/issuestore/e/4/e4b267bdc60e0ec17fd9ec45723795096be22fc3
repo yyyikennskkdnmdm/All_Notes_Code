@@ -1,0 +1,65 @@
+
+`	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(µŞâÚÿÿÿÿÿ
+F
+java:S3740š"/Provide the parametrized type for this generic.(™¢Ş€
+K
+java:S3740Ÿ"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+K
+java:S3740Ÿ"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+o
+java:S1192"YDefine a constant instead of duplicating this literal "com.mysql.cj.jdbc.Driver" 6 times.(ğ¿Éí
+l
+java:S1192"VDefine a constant instead of duplicating this literal "jdbc:mysql:///atguigu" 6 times.(ÄÕåš
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êı’ôùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾Í‘Ïúÿÿÿÿ
+j
+java:S2095i"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+k
+java:S2095–"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+_
+java:S2095µ"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+j
+java:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+j
+java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+^
+java:S2095D"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+k
+java:S2095¹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+k
+java:S2095ƒ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+^
+java:S2095f"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+_
+java:S2095“"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+@	java:S106"+Replace this use of System.out by a logger.(¶õĞµ
+@	java:S106"+Replace this use of System.out by a logger.(½è
+L
+java:S6437"6Revoke and change this password, as it is compromised.(ÄÕåš
+@	java:S106*"+Replace this use of System.out by a logger.(À‘ä
+E	java:S106,"+Replace this use of System.out by a logger.(¼ËñØúÿÿÿÿ
+h	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µŞâÚÿÿÿÿÿ
+@	java:S106:"+Replace this use of System.out by a logger.(¶õĞµ
+@	java:S106<"+Replace this use of System.out by a logger.(½è
+L
+java:S6437D"6Revoke and change this password, as it is compromised.(ÄÕåš
+@	java:S106R"+Replace this use of System.out by a logger.(À‘ä
+E	java:S106T"+Replace this use of System.out by a logger.(¼ËñØúÿÿÿÿ
+L
+java:S6437f"6Revoke and change this password, as it is compromised.(ÄÕåš
+E	java:S106r"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ
+h	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éËĞùÿÿÿÿ
+L
+java:S6437"6Revoke and change this password, as it is compromised.(ÄÕåš
+F	java:S106ˆ"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ö¸Ü
+M
+java:S6437“"6Revoke and change this password, as it is compromised.(ÄÕåš
+F	java:S106¥"+Replace this use of System.out by a logger.(ƒìºÕùÿÿÿÿ
+i	java:S100±"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¤âõùÿÿÿÿ
+M
+java:S6437µ"6Revoke and change this password, as it is compromised.(ÄÕåš

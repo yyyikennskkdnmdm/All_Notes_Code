@@ -1,0 +1,24 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(íÑ£—
+[	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ŠçÃ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÌÚ»•
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾Í‘Ïúÿÿÿÿ
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÄÕåš
+b
+java:S2095D"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+c
+java:S2095B"HUse try-with-resources or close this "Connection" in a "finally" clause.(Š¹§«ıÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÙØ¤Şıÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÑ£—
+L
+java:S6437"6Revoke and change this password, as it is compromised.(ÄÕåš
+@	java:S106+"+Replace this use of System.out by a logger.(ãğ¹‚
+c	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠçÃ
+K
+java:S6437C"6Revoke and change this password, as it is compromised.(ºÃØ
+@	java:S106K"+Replace this use of System.out by a logger.(À‘ä
+E	java:S106M"+Replace this use of System.out by a logger.(¼ËñØúÿÿÿÿ

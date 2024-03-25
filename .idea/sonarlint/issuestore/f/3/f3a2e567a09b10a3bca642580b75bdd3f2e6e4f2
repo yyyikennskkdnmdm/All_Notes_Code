@@ -1,0 +1,15 @@
+
+E
+java:S3740-"/Provide the parametrized type for this generic.(«‡É 
+d
+java:S1192&"IDefine a constant instead of duplicating this literal "username" 3 times.(éœë¾øÿÿÿÿ
+H
+java:S1948"-Make "userService" transient or serializable.(¤é¼ÿÿÿÿÿ
+
+java:S1130$"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(ãÒ¡ı
+‚
+java:S1130$"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ãÒ¡ı
+”
+java:S1130@"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(Ğğ£Ãÿÿÿÿÿ
+”
+java:S1130_"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(×“ıùÿÿÿÿ

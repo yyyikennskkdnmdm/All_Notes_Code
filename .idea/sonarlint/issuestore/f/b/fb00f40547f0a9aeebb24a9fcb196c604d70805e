@@ -1,0 +1,32 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(”şËœ
+E
+java:S3740"/Provide the parametrized type for this generic.(”şËœ
+E
+java:S3740#"/Provide the parametrized type for this generic.(ˆ°Ï
+E
+java:S3740#"/Provide the parametrized type for this generic.(ˆ°Ï
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’¥û†
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ˆÈşÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù•è­ÿÿÿÿÿ
+?
+java:S1481'")Remove this unused "size" local variable.(şßÂ‡
+E
+java:S1481+"*Remove this unused "empty" local variable.(°Ì¹•üÿÿÿÿ
+C
+java:S1481-"-Remove this unused "contains" local variable.(ÿß§Œ
+<
+java:S1481/"&Remove this unused "b" local variable.(’İìğ
+B
+java:S14812"'Remove this unused "b1" local variable.(©‡£ıÿÿÿÿ
+F
+java:S14815"+Remove this unused "remove" local variable.(Â»ë„úÿÿÿÿ
+=
+java:S14817"'Remove this unused "b2" local variable.(å©¾ª
+F
+java:S1481:"+Remove this unused "equals" local variable.(È»Ê»øÿÿÿÿ
+B
+java:S1481=",Remove this unused "objects" local variable.(àé«ò
+A
+java:S1481@"&Remove this unused "i" local variable.(ŞøÊ»úÿÿÿÿ

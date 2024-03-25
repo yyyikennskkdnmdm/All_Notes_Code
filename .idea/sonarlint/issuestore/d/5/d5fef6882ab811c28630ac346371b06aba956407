@@ -1,0 +1,10 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(Ø¼¢ƒ8Û»ä«å1
+X
+java:S1128"<Remove this unused import 'com.atguigu.service.UserService'.(ò†Æg8Û»ä«å1
+z
+java:S1128"XRemove this unused import 'com.baomidou.mybatisplus.core.conditions.query.QueryWrapper'.(ÓÆÂæÿÿÿÿÿ8Û»ä«å1
+Z
+java:S1128"8Remove this unused import 'jakarta.annotation.Resource'.(ÄÐÛûÿÿÿÿ8Û»ä«å1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ü»ä«å1
