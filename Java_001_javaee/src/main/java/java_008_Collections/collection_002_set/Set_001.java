@@ -2,6 +2,11 @@ package java_008_Collections.collection_002_set;
 
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.LinkedList;
+import java.util.TreeSet;
+
 //      TODO *  对于存放在Set容器中的对象，对应的类一定要重写equals和hashCode方法，以实现对象相等规则。
 public class Set_001 {
 
@@ -42,5 +47,16 @@ public class Set_001 {
         // 2.  first -- last
         // 3.  lower -- higher
         // 4.  subSet -- headSet --- tailSet
+        HashSet<Integer> integers = new HashSet<>();
+        integers.add(1);
+        integers.remove(1);
+
+
+        LinkedList<Integer> integers1 = new LinkedList<>();
+        integers1.add(1);
+        integers1.addFirst(2);
+        integers1.addLast(3);
+
+
     }
 }

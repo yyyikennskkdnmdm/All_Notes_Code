@@ -146,7 +146,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         if (count > 0) {
             return Result.build(null,ResultCodeEnum.USERNAME_USED);
         }
-
         user.setUserPwd(MD5Util.encrypt(user.getUserPwd()));
 
         userMapper.insert(user);

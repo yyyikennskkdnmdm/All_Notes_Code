@@ -84,6 +84,7 @@ public class use_005 {
         Function<Integer,String[]> func2 = String[] :: new;
         String[] arr2 = func2.apply(10);
         System.out.println(Arrays.toString(arr2));
+        System.out.println(arr2.length);
 
     }
 }

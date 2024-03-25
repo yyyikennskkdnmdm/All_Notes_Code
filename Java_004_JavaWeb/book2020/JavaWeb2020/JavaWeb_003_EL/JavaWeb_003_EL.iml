@@ -22,4 +22,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.50" level="application_server_libraries" />
     <orderEntry type="library" name="lib (9)" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="937727a4-9aa2-43f8-b969-92e5b004ed56" />
+  </component>
 </module>

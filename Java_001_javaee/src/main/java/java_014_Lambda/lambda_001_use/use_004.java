@@ -38,6 +38,7 @@ public class use_004 {
         con1.accept("北京");
 
         System.out.println("*******************");
+
         PrintStream ps = System.out;
         Consumer<String> con2 = ps::println;
         con2.accept("beijing");

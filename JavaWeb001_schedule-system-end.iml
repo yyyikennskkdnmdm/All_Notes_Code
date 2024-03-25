@@ -34,4 +34,7 @@
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="7b915824-ce92-4bfe-a4bf-5ccdb50ddb38" />
+  </component>
 </module>

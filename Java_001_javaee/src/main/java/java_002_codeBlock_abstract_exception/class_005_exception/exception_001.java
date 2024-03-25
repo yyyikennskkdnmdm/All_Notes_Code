@@ -1,4 +1,4 @@
-package java_002_class.class_005_exception;
+package java_002_codeBlock_abstract_exception.class_005_exception;
 
 import org.testng.annotations.Test;
 

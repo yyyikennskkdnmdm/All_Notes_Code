@@ -7,7 +7,10 @@ import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 public class My_Anno_001_test_001 {
-
+    public static void main(String[] args) {
+        Person person = new Person();
+        Generic<MyAnnotations> myAnnotationsGeneric = new Generic<>();
+    }
 }
 @MyAnnotation(value="hi")
 @MyAnnotation(value="abc")

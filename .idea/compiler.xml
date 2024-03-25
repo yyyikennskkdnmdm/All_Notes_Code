@@ -9,30 +9,33 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JavaWeb001_schedules_system_" />
         <module name="MybatisPlus_Test" />
-        <module name="JavaWeb001_atguigu-headline" />
         <module name="JavaWeb001_schedule_system" />
         <module name="springboot-headline-part" />
         <module name="Mybatis_test" />
         <module name="Maven_Test" />
+        <module name="Java_user_center" />
         <module name="Java_004_JavaWeb" />
-        <module name="JavaWeb001_schedule-system-end" />
+        <module name="demo" />
         <module name="Java_003_JDBC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="headline" target="1.6" />
+      <module name="Java_user_center" target="1.8" />
       <module name="JavaWeb001_atguigu-headline" target="17" />
       <module name="JavaWeb001_schedule-system-end" target="17" />
       <module name="JavaWeb_practice_001" target="17" />
       <module name="springboot-headline" target="17" />
       <module name="springboot-headline (1)" target="17" />
+      <module name="user-center" target="17" />
+      <module name="user_center" target="1.8" />
       <module name="WebStore" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JavaWeb000_Project" options="" />
-      <module name="JavaWeb001_atguigu-headline" options="-parameters" />
+      <module name="JavaWeb001_atguigu-headline" options="-parameters --add-modules java.sql" />
       <module name="JavaWeb001_schedule-system-end" options="-parameters" />
       <module name="JavaWeb001_schedule_system" options="--add-modules java.sql" />
       <module name="JavaWeb001_schedules_system_" options="-parameters" />

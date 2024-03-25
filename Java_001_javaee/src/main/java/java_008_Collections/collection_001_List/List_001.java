@@ -2,6 +2,8 @@ package java_008_Collections.collection_001_List;
 
 import org.testng.annotations.Test;
 
+import java.util.Vector;
+
 public class List_001 {
     /**
      * List 元素有序、且可重复。

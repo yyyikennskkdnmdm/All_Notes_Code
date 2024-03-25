@@ -1,4 +1,4 @@
-package java_002_class.class_003_code_block;
+package java_002_codeBlock_abstract_exception.class_003_code_block;
 
 import lombok.Data;
 import org.testng.annotations.Test;

@@ -162,9 +162,7 @@ public class jdbc002_PrepareStatement {
             }
             mapList.add(map);
         }
-
         System.out.println(mapList);
-
         //关闭资源close
         preparedStatement.close();
         connection.close();
